@@ -1,0 +1,11 @@
+{
+  "name": "example-app",
+  "type": "module",
+  "dependencies": {
+    "jscodeshift": "^0.15.2",
+    "prettier": "^3.2.5"
+  },
+  "scripts": {
+    "transform": "node ./prepare.js"
+  }
+}
